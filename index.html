@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--This is the meme maker form-->
+    <section id="header">
+        <h1>Meme Maker</h1>
+        <h2>Create your own dank memes in an instant!</h2>
+        <form id="memeForm">
+            <label for="topText">Top Text: </label>
+            <input type="text" id="topText">
+
+            <label for="bottomText">Bottom Text: </label>
+            <input type="text" id="bottomText">
+        
+            <label for="imageLink">Image Link: </label>
+            <input type="text" id="imageLink">
+
+            <label for="textSize">Text Size: </label>
+            <input type="range" id="textSize" min="1" max="100" value="12">
+
+            <label for="textColor"> Text Color: </label>
+            <input type="color" id="textColor">
+        
+            <button type="submit" id="submitButton">Make Meme</button>
+        </form>
+    </section>
+    <!--Memes go below here! -->
+    <section id="gallery">
+
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>

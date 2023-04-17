@@ -1,0 +1,52 @@
+#header{
+    background-color:slategray;
+    font-family:Arial, Helvetica, sans-serif;
+    border-style: solid;
+    padding-bottom: 5px;
+}
+
+
+div{
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow-wrap:break-word;
+
+}
+
+label{
+    font-size: 20px;
+
+}
+
+#submitButton{
+    font-size: 20px;
+}
+
+.topText{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    border-style:none;
+
+}
+
+.bottomText{
+    position:absolute;
+    bottom: 0%;
+    left: 0%;
+    border-style:none;
+
+}
+
+.deleteButton{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    
+}
